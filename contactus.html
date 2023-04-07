@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contactus.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>  
+    </head>
+    <body>
+        <script>
+            function myFunction() {
+      // Get the checkbox
+      var checkBox = document.getElementById("check");
+      // Get the output text
+      var text = document.getElementById("navtext");
+      var icon = document.getElementById("icon")
+      var nav = document.getElementById("nav")
+    
+      // If the checkbox is checked, display the output text
+      if (checkBox.checked == true){
+        text.style.transition ="1s";
+        text.style.display = "block";
+        icon.className="fa-solid fa-xmark fa-lg";
+      } else {
+        text.style.display = "none";
+        icon.className="fas fa-bars";
+      }
+    
+    }
+        </script>
+
+<nav id="nav">
+    <a href="index.html"><img src="deki-logo.png" alt="" width="200px"></a>
+    <div class="navcontents" id="navtext">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="casestudy.html">Case Studies</a>
+        <a href="contactus.html" id="contact">Contact us</a>
+    </div>
+    <input type="checkbox" id="check" onclick="myFunction()">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars" id="icon"></i>
+    </label>
+ </nav>
+
+ <section class="middle">
+    <div class="calendly">
+        <h3>Discover the Social media marketing System
+            7 to 8-figure Brands Use to Generate 35x in ROI</h3>
+        <!-- Calendly inline widget begin -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/digitaldeki2022/30min" style="min-width:320px;height:630px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Calendly inline widget end -->
+    </div>
+ </section>
+
+ <footer>
+    <div class="icons">
+        <a href="https://www.instagram.com/digitaldeki/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/digitaldeki2022/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/company/digitaldeki/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://twitter.com/DigitalDeki" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://pin.it/6ydnabo" target="_blank"><i class="fa-brands fa-pinterest"></i></a>    
+    </div>
+    <p>© Digital Deki.All rights reserved</p>
+</footer>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

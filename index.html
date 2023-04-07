@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>  
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+    <script>
+        function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("check");
+  // Get the output text
+  var text = document.getElementById("navtext");
+  var icon = document.getElementById("icon")
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.transition ="1s";
+    text.style.display = "block";
+    icon.className="fa-solid fa-xmark fa-lg";
+  } else {
+    text.style.display = "none";
+    icon.className="fas fa-bars";
+  }
+}
+    </script>
+            <nav>
+                <a href="index.html"><img src="deki-logo.png" alt="" width="200px"></a>
+                <div class="navcontents" id="navtext">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="#whyuss">Why us?</a>
+                    <a href="casestudy.html">Case Studies</a>
+                    <a href="contactus.html" id="contact">Contact us</a>
+                </div>
+                <input type="checkbox" id="check" onclick="myFunction()">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars" id="icon"></i>
+                </label>
+             </nav>
+    <!-- hero  -->
+    <section class="hero">
+
+         <!-- herocontents  -->
+         <div class="herocontents">
+            <div class="herotext">
+                <h1>The world of <br> <span class="blue">Digital advertising</span> <br>Has evolved. <span id="break">Have You?</span></h1>
+                <p>Time to ditch traditional marketing and embrace social media. Let
+                    Digital deki help you connect with your audience and stay ahead of
+                    the game in the evolving world of digital advertising</p>
+                <a href="contactus.html" id="button">Set a metting</a>
+            </div>
+            <img src="laptop.JPG" alt="">
+         </div>
+    </section>
+
+        <!-- services  -->
+
+    <section class="services">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/32E2ivNysis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h3><span>Services </span>we can help you with</h3>
+
+        <hr>
+        <div class="list">
+            <div class="number">01</div>
+            <span>Social Media Management</span>
+            <a href="services.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <hr>
+        <div class="list">
+            <div class="number">02</div>
+            <span>Content Creation</span>
+            <a href="services.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <hr>
+        <div class="list">
+            <div class="number">03</div>
+            <span>Advertising</span>
+            <a href="services.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <hr>
+        <div class="list">
+            <div class="number">04</div>
+            <span>Analytics & Reporting</span>
+            <a href="services.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+
+        <hr>
+        <div class="list">
+            <div class="number">05</div>
+            <span>Social Media Strategy</span>
+            <a href="services.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+        </div>
+    </section>
+
+    <!-- creativeproduction  -->
+    <section class="creativebox">
+        <div class="creativeproduction">
+            <div class="creativetext">
+                <h2>Creative Production</h2>
+                <p>In a world where every brand is competing for attention,
+                    creativity can set you apart. Crafting innovative and
+                    captivating ad creative is crucial to stay ahead of the curve.
+                </p>
+                <a href="casestudy.html" id="whyuss">See Our Works</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- why us  -->
+
+    <section class="whyus">
+        <h3>Why Us?</h3>
+
+        <div class="whybox whybox-1">
+            <div class="text">
+                <h2>More than just another outsourced agency</h2>
+                <p>We're not just another outsourced agency. We re your
+                    partner in success. Our team is dedicated to helping your
+                    business grow and achieve your marketing objectives. With
+                    us, you can expect a personalized approach, transparent
+                    communication, and a commitment to delivering
+                    exceptional results. Let s work together to take your brand to
+                    the next level.</p>
+            </div>
+            <img src="why1.jpg" alt="">
+
+        </div>
+
+        <div class="whybox whybox-2">
+            <img src="why2.jpg" alt="">
+            <div class="text">
+                <h2>Data Centric</h2>
+                <p> We believe in a data centric approach to marketing. By
+                    leveraging the power of data and analytics, we help
+                    businesses make informed decisions and drive results. Our
+                    team of experts uses advanced tools and techniques to
+                    gather insights, analyze trends, and optimize campaigns for
+                    maximum impact. With our data centric approach,
+                    businesses can stay ahead of the competition and achieve
+                    their marketing goals with confidence.</p>
+            </div>
+        </div>
+
+
+        <div class="whybox whybox-3">
+            <div class="text">
+                <h2>Comprehensive Service</h2>
+                <p> We offer comprehensive services that cover every aspect of
+                    your social media presence. From strategy development
+                    and content creation to community management and
+                    analytics, we have everything you need to succeed on
+                    social media. Let us help you build a strong and effective
+                    social media presence today.</p>
+            </div>
+            <img src="why3.jpg" alt="">
+
+        </div>
+
+    </section>
+
+<!-- companies  -->
+    <section class="companybox">
+        <class class="companies">
+            <h3>Companies Trusting in us</h3>
+            <div class="companyimg">
+                <img src="bluebird.jpg" alt="">
+                <img src="supreme.jpg" alt="">
+                <img src="phoenix.jpg" alt="">
+                <img src="crh.jpg" alt="">
+            </div>
+        </class>
+    
+    </section>
+
+    <!-- team  -->
+
+    <section class="team">
+        <h3>The Team</h3>
+        <div class="teamimg">
+
+            <div class="photo">
+                <div class="teamdescription">
+                    <img src="dipesh.jpg" alt="">
+                    <p>Dipesh Shrestha<span>CEO,Marketer</span></p>
+                </div>
+            </div>
+
+            <div class="photo">
+                <div class="teamdescription">
+                    <img src="ronish.jpg" alt="">
+                    <p>Ronish Joshi<span>Designer</span></p>             
+                </div>
+            </div>
+
+            <div class="photo">
+                <div class="teamdescription">
+                    <img src="aayush.jpg" alt="">
+                    <p>Aayush Shrestha<span>Copywriter</span></p>     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deki designs  -->
+
+    <!-- <section class="dekidesigns">
+        <h2>Deki <span>Designs</span></h2>
+        <div class="designs">
+            <svg width="100%" viewBox="0 0 1512 547" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1141.34" y="307.572" width="235.968" height="239.223" rx="17.901" fill="#D9D9D9"/>
+                <rect x="871.792" y="307.777" width="235.968" height="239.223" rx="17.901" fill="#D9D9D9"/>
+                <rect x="871.792" width="506.111" height="292.926" rx="17.901" fill="#D9D9D9"/>
+                <rect x="519.267" width="307.572" height="546.795" rx="50.4484" fill="#D9D9D9"/>
+                <rect x="134" y="340.12" width="340.12" height="206.676" rx="37.4294" fill="#D9D9D9"/>
+                <rect x="134" y="14.6465" width="340.12" height="292.926" rx="37.4294" fill="#D9D9D9"/>
+                </svg>                        
+        </div>
+    </section> -->
+
+    <!-- how does it work  -->
+
+    <section class="process">
+        <div class="processbox">
+            <h2>How Does It Work?</h2>
+            <div class="innerbox">
+
+                <div class="processwrap">
+                    <div class="textbox">
+                        <h3>01</h3>
+                        <h1>Book a call</h1>
+                        <p>Book a call with us through our calendly link.</p>
+                    </div>
+                    <div class="textbox textbox-2">
+                        <h3>02</h3>
+                        <h1>Idea Discussion</h1>
+                        <p>Once on the call we try to understand 
+                            your needs and hear your specific demands           
+                            about ad if any. A general understanding                        
+                            of the brand and goals is established</p>
+                    </div>
+                </div>
+
+                <div class="video">
+                    <img src="vid.gif" alt="">
+                 </div>
+
+                 <div class="processwrap processwrap-2">
+                    <div class="textbox">
+                        <h3>03</h3>
+                        <h1>Market Research</h1>
+                        <p>We carefully analyze the niche your store
+                            operates on in order to understand your
+                            target audience. Then we come up with the
+                            best copies and design language that are
+                            well optimized</p>
+                    </div>
+                    <div class="textbox textbox-2">
+                        <h3>04</h3>
+                        <h1>Execution</h1>
+                        <p>The money making process starts. 
+                            The final ads will be made live.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="getstarted">
+        <div class="getstarted-in">
+            <h5>Ready to take your social media presence to <br>the <span>next level?</span>  <br>Lets work together</h5>
+            <a href="contactus.html">Get Started</a>
+        </div>
+            
+    </section>
+
+    <footer>
+        <div class="icons">
+            <a href="https://www.instagram.com/digitaldeki/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/digitaldeki2022/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/digitaldeki/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/DigitalDeki" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://pin.it/6ydnabo" target="_blank"><i class="fa-brands fa-pinterest"></i></a>     
+        </div>
+        <p>© Digital Deki.All rights reserved</p>
+    </footer>
+
+    
+</body>
+</html>

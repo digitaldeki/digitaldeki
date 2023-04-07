@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="servicestyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>  
+</head>
+<body>
+    <script>
+        function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("check");
+  // Get the output text
+  var text = document.getElementById("navtext");
+  var icon = document.getElementById("icon")
+  var nav = document.getElementById("nav")
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.transition ="1s";
+    text.style.display = "block";
+    icon.className="fa-solid fa-xmark fa-lg";
+  } else {
+    text.style.display = "none";
+    icon.className="fas fa-bars";
+  }
+
+}
+    </script>
+            <nav id="nav">
+                <a href="index.html"><img src="deki-logo.png" alt="" width="200px"></a>
+                <div class="navcontents" id="navtext">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="casestudy.html">Case Studies</a>
+                    <a href="contactus.html" id="contact">Contact us</a>
+                </div>
+                <input type="checkbox" id="check" onclick="myFunction()">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars" id="icon"></i>
+                </label>
+             </nav>
+
+             <!-- middletext  -->
+
+             <div class="middletext">
+                <h1>Our Services</h1>
+                <p>We offer a complete range of social media marketing services.</p>
+             </div>
+
+            <!-- services  -->
+
+             <div class="servicesbox">
+                <div class=" service service1">
+                    <div class="text">
+                        <div class="text-box">
+                            <h2>01</h2>
+                            <h3>Social Media Management</h3>
+                            <p>We understand that managing social media can be time-consuming and overwhelming, which is why we take care of everything for you. Our services include content creation and curation, community management, social media advertising, and analytics and reporting. With our social media management services, you'll have more time to focus on running your business while we handle the day-to-day of social media.</p>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <img src="Digital-tools.gif" alt="">
+                    </div>
+                </div>
+
+
+                <div class="service service2">
+                    <div class="text">
+                        <div class="text-box">
+                            <h2>02</h2>
+                            <h3>Content Creation</h3>
+                            <p>Craft engaging content that drives results. We create a customized content strategy aligned with your brand and objectives. Let us help you connect with your audience and stand out.</p>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <img src="content-creation.gif" alt="">
+                    </div>
+                </div>
+
+                <div class=" service service3">
+                    <div class="text">
+                        <div class="text-box">
+                            <h2>03</h2>
+                            <h3>Advertising</h3>
+                            <p>We create custom ad campaigns tailored to your specific business objectives, whether you're looking to boost brand awareness, drive website traffic, or increase sales and revenue.</p>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <img src="Marketing.gif" alt="">
+                    </div>
+                </div>
+
+                <div class=" service service4">
+                    <div class="text">
+                        <div class="text-box">
+                            <h2>04</h2>
+                            <h3>Analytics & Reporting</h3>
+                            <p>At our marketing company, we know that data is king. That's why we offer comprehensive analytics and reporting services to help businesses understand the impact of their digital marketing efforts and make informed decisions about their marketing strategy going forward.</p>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <img src="analytics.gif" alt="">
+                    </div>
+                </div>
+
+
+
+                <div class=" service service5">
+                    <div class="text">
+                        <div class="text-box">
+                            <h2>05</h2>
+                            <h3>Social Media Strategy</h3>
+                            <p>You have competition reaching out to your customers. You have customers who think twice before buying your product. To survive in business, you must strategize. Good for you, because we don't strategize to survive; we strategize to win..</p>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <img src="magnet.gif" alt="">
+                    </div>
+                </div>
+             </div>
+
+             <div class="getstarted">
+                <h4>Are you ready to level up your social media game?</h4>
+                <a href="contactus.html">Let's get started</a>
+             </div>
+
+             <footer>
+                <div class="icons">
+                    <a href="https://www.instagram.com/digitaldeki/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/digitaldeki2022/"target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/company/digitaldeki/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/DigitalDeki" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://pin.it/6ydnabo" target="_blank"><i class="fa-brands fa-pinterest"></i></a>     
+                </div>
+                <p>© Digital Deki.All rights reserved</p>
+            </footer>
+</body>
+</html>

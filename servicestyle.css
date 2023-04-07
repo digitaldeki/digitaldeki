@@ -1,0 +1,112 @@
+body{
+    background-color: #263238;
+    color: white;
+}
+nav{
+    position: absolute;
+}
+.middletext 
+{
+    padding-top: 170px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.servicesbox 
+{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+}
+
+.service 
+{
+    display: flex;
+}
+.text
+{
+    flex: 1;
+}
+.text-box
+{
+    padding: 60px 40px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    height: 100%;
+}
+.text-box h2 
+{
+    font-weight: 200;
+    font-size: 95px;
+}
+.text-box h3
+{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text-box p 
+{
+    line-height: 1.8;
+}
+.imgbox
+{
+    flex: 1;
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: center;
+
+}
+/* .imgbox img 
+{
+    margin-left: 50%;
+    transform: translateX(-50%);  
+    width: 300px;
+
+} */
+.imgbox img 
+{
+    align-self: center;
+    width: 100%;
+}
+.service2,.service4
+{
+    flex-direction: row-reverse;
+}
+
+/* getstarted  */
+.getstarted
+{
+    text-align: center;
+}
+.getstarted h4 
+{
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.getstarted a 
+{
+    padding: 20px 50px;
+    background-color: rgb(61, 135, 255);
+    color: white;
+    text-decoration: none;
+}
+footer
+{
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .service
+    {
+        flex-direction: column-reverse;
+    }
+    .imgbox img
+    {
+        width: 80%;
+    }
+
+}
